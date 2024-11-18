@@ -1,0 +1,71 @@
+{
+  "empleados": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "edad": 30,
+      "cargo": "Desarrollador",
+      "salario": 55000,
+      "proyectos": [
+        {
+          "nombre": "Sistema de Gestión de Usuarios",
+          "fecha_inicio": "2024-01-15",
+          "tareas": [
+            {"id": 1, "descripcion": "Diseño de base de datos", "estado": "Completada"},
+            {"id": 2, "descripcion": "Desarrollo de API", "estado": "En progreso"}
+          ]
+        },
+        {
+          "nombre": "Aplicación Móvil",
+          "fecha_inicio": "2024-04-01",
+          "tareas": [
+            {"id": 3, "descripcion": "Desarrollo de interfaz", "estado": "Pendiente"},
+            {"id": 4, "descripcion": "Integración con backend", "estado": "Pendiente"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "María Rodríguez",
+      "edad": 28,
+      "cargo": "Analista de Datos",
+      "salario": 60000,
+      "proyectos": [
+        {
+          "nombre": "Sistema de Gestión de Usuarios",
+          "fecha_inicio": "2024-01-15",
+          "tareas": [
+            {"id": 5, "descripcion": "Análisis de requisitos", "estado": "Completada"},
+            {"id": 6, "descripcion": "Análisis de datos", "estado": "En progreso"}
+          ]
+        },
+        {
+          "nombre": "Plataforma de e-commerce",
+          "fecha_inicio": "2024-05-10",
+          "tareas": [
+            {"id": 7, "descripcion": "Análisis de mercado", "estado": "Pendiente"},
+            {"id": 8, "descripcion": "Estudio de competencia", "estado": "Pendiente"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos Gómez",
+      "edad": 35,
+      "cargo": "Diseñador",
+      "salario": 75000,
+      "proyectos": [
+        {
+          "nombre": "Aplicación Móvil",
+          "fecha_inicio": "2024-04-01",
+          "tareas": [
+            {"id": 9, "descripcion": "Diseño de interfaz", "estado": "Completada"},
+            {"id": 10, "descripcion": "Creación de prototipos", "estado": "En progreso"}
+          ]
+        }
+      ]
+    }
+  ]
+}

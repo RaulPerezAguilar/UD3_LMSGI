@@ -1,0 +1,88 @@
+{
+  "estudiantes": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "edad": 16,
+      "asignaturas": [
+        {
+          "nombre": "Matemáticas",
+          "calificacion": 8.5
+        },
+        {
+          "nombre": "Física",
+          "calificacion": 9.2
+        },
+        {
+          "nombre": "Historia",
+          "calificacion": 7.8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "María González",
+      "edad": 17,
+      "asignaturas": [
+        {
+          "nombre": "Matemáticas",
+          "calificacion": 9.0
+        },
+        {
+          "nombre": "Biología",
+          "calificacion": 9.5
+        }
+      ]
+    }
+  ],
+  "profesores": [
+    {
+      "id": 1,
+      "nombre": "Carlos López",
+      "edad": 45,
+      "asignaturas": [
+        {
+          "nombre": "Matemáticas",
+          "creditos": 5
+        },
+        {
+          "nombre": "Física",
+          "creditos": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Ana Torres",
+      "edad": 38,
+      "asignaturas": [
+        {
+          "nombre": "Biología",
+          "creditos": 6
+        },
+        {
+          "nombre": "Historia",
+          "creditos": 4
+        }
+      ]
+    }
+  ],
+  "asignaturas": [
+    {
+      "nombre": "Matemáticas",
+      "creditos": 5
+    },
+    {
+      "nombre": "Física",
+      "creditos": 4
+    },
+    {
+      "nombre": "Historia",
+      "creditos": 4
+    },
+    {
+      "nombre": "Biología",
+      "creditos": 6
+    }
+  ]
+}
